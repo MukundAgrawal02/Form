@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-position: center center;
+    background-image: url(./assets/softbg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    cursor: url(cursor-png-1104.png), auto;}
+
+
+
+
+form {
+    max-width: 70%;
+    margin: 50px  auto;
+    margin-bottom: 100px;
+    padding: 20px;
+    border-radius: 40px 0px 40px 0px ;
+    box-shadow:0px 0px 20px 1px black ;
+    backdrop-filter: blur(15px);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border : 2px solid black;
+    border-radius: 5px;
+}
+
+.errormessage {
+    color: red;
+}
+.navbar-brand{
+    font-size: 25px;
+}
+label{
+    font-size: 25px;
+}
